@@ -1,0 +1,145 @@
+    /* IMPORT-ITEAM  */
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Quicksand&family=Rubik&display=swap');
+
+    /* font-family: 'Kanit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Rubik', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+  
+}
+header{
+    background-color: #99FEFF;
+    padding: 15px;
+}
+
+.nav-btn{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+ul {
+    list-style: none;
+}
+ul  a{
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+.social-media {
+    
+letter-spacing: 10px;
+cursor: pointer;
+color: #fff;
+}
+.Chem{
+    box-shadow:1px 2px 0px 2px ;
+    text-align: center;
+    font-size: 2rem;
+    color: #99FEFF;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+/* container  */
+.img{
+    margin: 20px 0px 0px 10px;
+    position: relative;
+    background-color: transparent;
+    max-height: 600px;
+    overflow: hidden;
+    max-width: 964px;
+    /* overflow: hidden; */
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* REGISTER-WORK-CSS  */
+.container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20PX;
+    
+}
+h3{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+}
+.register{
+    
+    margin: 80px 160px 0px 20px;
+}
+form{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 10px;
+    box-shadow: 0px 1px 0px 2px;
+    color: #99FEFF;
+    border-radius: 5px;
+}
+input{
+   padding: 5px 61px 5px 13px;
+   border-radius: 5px;
+   outline: none;
+   border: 2px solid #99FEFF;
+}
+button{
+    padding: 5px 61px 5px 13px;
+    
+    border-radius: 5px;
+
+}
+ul{
+    position: relative;
+}
+
+ul a{
+    border-bottom: 3px solid transparent;
+    transition: all  100ms ease-in;
+}
+
+ul a:hover{
+    border-bottom: 3px solid red;
+}
+    
+
+/* ul a:before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0;
+    height: 5px;
+    background-color: #000;
+    transition: all 0.5s linear;
+}
+ul a:hover::before{
+    width: 100%;
+    background-color: red;
+} */
+
+
+
+    
+
+  
+   
+  
+     
+   

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <!-- FONT-AWESOME-KIT  -->
+    <script src="https://kit.fontawesome.com/5a68c1c342.js" crossorigin="anonymous"></script>
+
+    <title><--Doctor--></title>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-btn">
+               <ul>
+                    <a href="">HOME</a>
+                    <a href="">CONTACT</a>
+                    <a href="">GLASS</a>
+                    <a href="">HOME</a>
+               </ul>
+                <div class="social-media">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <!-- <i class="fa-brands fa-linkedin"></i> -->
+                </div>
+            </>
+        </nav>
+    </header>
+    <div class="Chem">
+     <h3>CHEMISTRY - LABORATORY</h3>
+    </div>
+
+    <!-- containre   -->
+<div class="container">
+   
+    <div class="img">
+        <img name="slide" src="./IMG/chemistry.jpg " alt="">
+
+    </div>
+    <div class="register">
+      <div>
+        <h3 style="color: aqua;">CREATE a ACCOUNT</h3>  
+        <form action="#" method="get" >
+
+            <input name="NAME" type="text" placeholder="Name">
+            <input name="email" type="email" placeholder="Email">
+            <input name="num" type="number" required placeholder="Mobile-NO.">
+            <input name="pass" type="password" placeholder="Password">
+            <input name="repass" type="password" placeholder="Reapate Passord">
+            <button name="btn" type="submit">REGISTER</button>
+
+        </form>
+    </div>
+    </div>
+</div>
+
+
+  
+
+<script>
+    var img = document.getElementById('img');
+    var images = ['./IMG/1.jpg','./IMG/2.jpg','./IMG/3.jpg','./IMG/4.jpg','./IMG/5.jpg','./IMG/6.jpg'];
+
+    var x=0;
+    function changeImage(){
+        if(x<images.length){
+            x++;
+
+        }
+        else{
+            x=1;
+        }
+        slide.src = images[x-1]
+    }
+    setInterval(changeImage,60000);
+
+
+    
+
+
+</script>
+    
+
+    
+</body>
+</html>
